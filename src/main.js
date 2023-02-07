@@ -17,7 +17,7 @@ const routes = [
   {
     name: "NotFound",
     path: "/:catchAll(.*)",
-    component: () => import("./pages/NotFound.vue"),
+    component: () => import("./pages/Notfound.vue"),
   },
 ];
 
