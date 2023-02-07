@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import Color from "./Color.vue";
+import Color from "./ColorComponent.vue";
 export default {
   name: "Recap_01_02_2023",
   components: { Color },

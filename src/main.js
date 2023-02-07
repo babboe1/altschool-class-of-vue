@@ -6,9 +6,9 @@ import App from "./App.vue";
 
 import "./assets/main.css";
 
-import Home from "./pages/Home.vue";
-import About from "./pages/About.vue";
-import Post from "./pages/Post.vue";
+import Home from "./pages/HomePage.vue";
+import About from "./pages/AboutPage.vue";
+import Post from "./pages/PostPage.vue";
 
 const routes = [
   { path: "/", component: Home, name: "Home" },
@@ -17,7 +17,7 @@ const routes = [
   {
     name: "NotFound",
     path: "/:catchAll(.*)",
-    component: () => import("./pages/Notfound.vue"),
+    component: () => import("./pages/NotFound.vue"),
   },
 ];
 
